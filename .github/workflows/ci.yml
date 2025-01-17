@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
 
     steps:
-          name: "setup node JS"
+         - name: "setup node JS"
           uses: actions/setup-node@v4
         
 
